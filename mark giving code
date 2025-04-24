@@ -1,0 +1,71 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNHMjoiIl4J3kS/bT5IoEN2",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/syedmuhammadali0/basic_python_syntax/blob/main/mark%20giving%20code\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 4,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "lgOBDA6vnxp2",
+        "outputId": "52c27429-0b71-41b2-c353-cc98240107e0"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Grade: B\n"
+          ]
+        }
+      ],
+      "source": [
+        "marks = 85\n",
+        "\n",
+        "if marks >= 90:\n",
+        "   print(\"Grade: A\")\n",
+        "elif marks >= 80:\n",
+        "  print(\"Grade: B\")\n",
+        "elif marks >= 70:\n",
+        "  print(\"Grade: C\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\"\""
+      ],
+      "metadata": {
+        "id": "OT3a7_HYn0F0"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
