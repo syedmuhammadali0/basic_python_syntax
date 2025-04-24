@@ -1,0 +1,62 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPF4E46bBO1D0daIBKvoYDf",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/syedmuhammadali0/basic_python_syntax/blob/main/Info\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "meun0CwFgvl7"
+      },
+      "outputs": [],
+      "source": [
+        "name = input(\"enter your name:\")\n",
+        "age = int(input(\"enter your age:\"))\n",
+        "email = (input(\"enter your name:\"))\n",
+        "print(name)\n",
+        "print(age)\n",
+        "print(email)\n",
+        "fav_movie = [\"wolf of wall street\",\"salaar\",\"john wick\"]\n",
+        "print(fav_movie)\n",
+        "celsius = int(input(\"enter temperature in celsius:\"))\n",
+        "fahrenheit = int(celsius * 9/5) + 32\n",
+        "print(f\"{celsius:.2f} degree celsius is equal to {fahrenheit:.2f} degree farenheit\")\n",
+        "thisdict = {\n",
+        "    \"brand\" : \"ford\",\n",
+        "    \"model\" : \"mustang\",\n",
+        "    \"year\" : 1964}"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "qVWsYTL3j-p0"
+      }
+    }
+  ]
+}
